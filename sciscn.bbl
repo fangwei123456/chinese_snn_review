@@ -1,48 +1,11 @@
 \begin{thebibliography}{1}
 
-\bibitem{Cheng2021sMeasure}
-Ming-Ming Cheng and Deng-Ping Fan.
-\newblock Structure-measure: A new way to evaluate foreground maps.
-\newblock {\em International Journal of Computer Vision (IJCV)},
-  129(9):2622--2638, 2021.
-
-\bibitem{21PAMI-Sal100K}
-Ming-Ming Cheng, Shang-Hua Gao, Ali Borji, Yong-Qiang Tan, Zheng Lin, and Meng
-  Wang.
-\newblock A highly efficient model to study the semantics of salient object
-  detection.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  44(11):8006--8021, 2022.
-
-\bibitem{pami21Res2net}
-Shang-Hua Gao, Ming-Ming Cheng, Kai Zhao, Xin-Yu Zhang, Ming-Hsuan Yang, and
-  Philip Torr.
-\newblock Res2net: A new multi-scale backbone architecture.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  43(2):652--662, 2021.
-
-\bibitem{Gao22LUSS}
-Shanghua Gao, Zhong-Yu Li, Ming-Hsuan Yang, Ming-Ming Cheng, Junwei Han, and
-  Philip Torr.
-\newblock Large-scale unsupervised semantic segmentation.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  45(6):7457--7476, 2023.
-
-\bibitem{HouPami19Dss}
-Qibin Hou, Ming-Ming Cheng, Xiaowei Hu, Ali Borji, Zhuowen Tu, and Philip Torr.
-\newblock Deeply supervised salient object detection with short connections.
-\newblock {\em IEEE TPAMI}, 41(4):815--828, 2019.
-
-\bibitem{RcfEdgePami2019}
-Yun Liu, Ming-Ming Cheng, Xiaowei Hu, Jia-Wang Bian, Le~Zhang, Xiang Bai, and
-  Jinhui Tang.
-\newblock Richer convolutional features for edge detection.
-\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell.}, 41(8):1939 -- 1946,
-  2019.
-
-\bibitem{21SC_WebSegE}
-侯淇彬, 韩凌昊, 刘姜江, and 程明明.
-\newblock 互联网图像驱动的语义分割自主学习.
-\newblock {\em 中国科学：信息科学}, 51(7):1084--1099, 2021.
+\bibitem{fang2021incorporating}
+Wei Fang, Zhaofei Yu, Yanqi Chen, Timoth{\'e}e Masquelier, Tiejun Huang, and
+  Yonghong Tian.
+\newblock Incorporating learnable membrane time constant to enhance learning of
+  spiking neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 2661--2671, 2021.
 
 \end{thebibliography}

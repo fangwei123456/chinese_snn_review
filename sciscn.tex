@@ -187,20 +187,36 @@ Self-Architectural Knowledge Distillation for Spiking Neural Networks
 \subsection{神经元和突触改进}% 例如plif、glif
 深度脉冲神经网络的主要组分是神经元和突触，两者均对网络性能有着重要影响，有大量研究对其进行改进，提出了多种新型神经元和突触模型。
 PLIF神经元(Parametric Leaky Integrate-and-Fire Neuron)模型\upcite{fang2021incorporating}是最早的神经动态可学习的神经元模型之一，其基于经典的LIF神经元模型，将膜时间常数$\tau_{m}$参数化并设置为可学习，其神经元的阈下神经动态为：
-\begin{align}
+\begin{eqnarray}
 	H[t] = V[t-1] + k(a)\cdot\Big(-(V[t-1] - V_{reset}) + X[t]\Big), \label{eq, plif charge}
-\end{align}
+\end{eqnarray}
 其中膜时间常数的倒数，即$\frac{1}{\tau_{m}}$被重参数化为$\frac{1}{\tau_{m}}=k(a)$，而$a$是真正的可学习参数。$k(a)\in (0, 1)$是限幅函数，确保$\tau_{m} > 1$以防止神经元出现自充电的情况，在实践中通常取$k(a) = \frac{1}{\exp(-a)}$。PLIF神经元通常设置每一层只有一个可学习参数$a$，即该层神经元的膜时间常数是共享的，既大幅度减少了参数量，又与生理实验证据中相邻脑区神经元性质类似这一特性符合；而不同神经元层的参数$a$在训练后不尽相同，保持了神经元的异质性。以往的研究为了减少调参成本，倾向于在整个网络中使用相同的膜时间常数$\tau_{m}$，丧失了神经元的异质性，并且只训练网络权重，使得网络的表达能力有所下降；PLIF神经元的提出解决了这一问题，并实现了突触权重和神经动态的联合学习。
 GLIF神经元(Gated Leaky Integrate-and-Fire
 Neuron)\upcite{yao2022glif}进一步扩展了神经动态的学习范围，其将神经元对上一时刻的状态衰减、对输入的累计、释放脉冲引发的重置均进行参数化，分别表示为可学习的门控$\mathbb{G}\_{\alpha}, \mathbb{G}\_{\beta}, \mathbb{G}\_{\gamma}$，具体形式为：
-\begin{align}
+\begin{eqnarray}
 	\mathbb{G}\_{\alpha} = (1 - \alpha (1 - \tau_{exp}))H[t-1] - (1 - \alpha)\tau_{lin}, \\
 	\mathbb{G}\_{\beta} = (1 - \beta (1 - g[t]))X[t], \\
 	\mathbb{G}\_{\gamma} = -\gamma \mathbb{G}\_{\alpha} - (1 - \gamma) V_{reset},
-\end{align}
+\end{eqnarray}
 其中$\alpha, \beta, \gamma$分别是可学习的门控系数；$\tau_{exp}$和$\tau_{lin}$分别表示指数和线性衰减系数；$g[t]$表示随时间变化的突触权重。参数共享的技巧也在GLIF神经元中得到了使用，其可学习参数支持设置为逐层或逐通道，因此也几乎不增加网络的参数量。GLIF神经元通过可学习的门控，实现了指数衰减和线性衰减、无状态突触和有状态突触、硬重置和软重置的混叠，因此具有很强的表达能力。
 MLF方法(Multi-Level Firing Method)\upcite{ijcai2022p343}使用多个脉冲神经元构成一个神经元组，组内的神经元使用不同的阈值，并将输出的脉冲累计，具有更好的拟合能力。
-并行脉冲神经元(Parallel Spiking Neurons)\upcite{fang2023parallel}和随机可并行化脉冲神经元\upcite{10191884}是
+并行脉冲神经元PSN(Parallel Spiking Neurons)\upcite{fang2023parallel}是首个并行脉冲神经元模型，其灵感来自于传统串行脉冲神经元在不发放脉冲的一段时刻内，膜电位的逐时间步迭代求解可以写成非迭代形式的解析解。受此现象启发，方等人\upcite{fang2023parallel}去除了传统脉冲神经元的重置过程，并发现对于大多数神经元而言，$H[t]$可以表达为输入$X[i]$的线性组合，以此提出了PSN模型，其神经动态为：
+\begin{eqnarray}
+	\bm{H} &= \bm{W}\bm{X}, ~~~~~~~~~~~~~~~\bm{W} \in \mathbb{R}^{T \times T}, \bm{X} \in \mathbb{R}^{T \times N} \label{eq, psn neuronal charge}\\
+	\bm{S} &= \Theta(\bm{H} - \bm{B}), ~~~~~\bm{B} \in \mathbb{R}^{T}, \bm{S}\in \{0, 1\}^{T \times N}
+\end{eqnarray}
+其中$\bm{X}$是输入序列，$\bm{W}$是可学习权重，$\bm{H}$是膜电位，$\bm{B}$是可学习阈值，$\bm{S}$是输出脉冲，$N$是神经元数量，$T$是仿真步数。PSN膜电位的生成需要用到所有时刻的信息，而在一些实际任务中，未来信息不可即时获取，为解决这一问题，masked PSN被提出，其对公式\ref{eq, psn neuronal charge}中使用的权重增加掩模，只使用包括$t$时刻在内的最新$k$个输入来生成$H[t]$，具体形式为：
+\begin{eqnarray}
+	\bm{H} &= (\bm{W} \cdot \bm{M}_{k})\bm{X}, ~~~~~~~~~~~~~~~\bm{W} \in \mathbb{R}^{T \times T}, \bm{M}_{k} \in \mathbb{R}^{T \times T}, \bm{X} \in \mathbb{R}^{T \times N}
+\end{eqnarray}
+其中$\bm{M}_{k}$定义为：
+\begin{eqnarray}
+	\bm{M}_{k}[i][j] &= \begin{cases}
+		1, ~~ j \leq i \leq j + k - 1 \\
+		0, \mathrm{otherwise}
+	\end{cases}.
+\end{eqnarray}
+
 
 Incorporating learnable membrane time constant to enhance learning of spiking neural networks
 

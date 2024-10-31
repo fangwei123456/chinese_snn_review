@@ -1,4 +1,430 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{100}
+
+\bibitem{deep-learning-nature}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock {\em Nature}, 521(7553):436--444, 2015.
+
+\bibitem{he2015delving}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 1026--1034, 2015.
+
+\bibitem{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 1--9, 2015.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 770--778, 2016.
+
+\bibitem{dosovitskiy2020image}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock In {\em International Conference on Learning Representations}, 2021.
+
+\bibitem{girshick2014rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 580--587, 2014.
+
+\bibitem{redmon2016you}
+Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi.
+\newblock You only look once: Unified, real-time object detection.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 779--788, 2016.
+
+\bibitem{graves2013speech}
+Alex Graves, Abdel-rahman Mohamed, and Geoffrey Hinton.
+\newblock Speech recognition with deep recurrent neural networks.
+\newblock In {\em IEEE International Conference on Acoustics, Speech and Signal
+  Processing}, pages 6645--6649. IEEE, 2013.
+
+\bibitem{graves2013hybrid}
+Alex Graves, Navdeep Jaitly, and Abdel-rahman Mohamed.
+\newblock Hybrid speech recognition with deep bidirectional lstm.
+\newblock In {\em IEEE workshop on Automatic Speech Recognition and
+  Understanding}, pages 273--278. IEEE, 2013.
+
+\bibitem{sutskever2014sequence}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~27, 2014.
+
+\bibitem{bahdanau2014neural}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock In {\em International Conference on Learning Representations}, 2015.
+
+\bibitem{sennrich2015neural}
+Rico Sennrich, Barry Haddow, and Alexandra Birch.
+\newblock Neural machine translation of rare words with subword units.
+\newblock In {\em Proceedings of the 54th Annual Meeting of the Association for
+  Computational Linguistics}, pages 1715--1725, Berlin, Germany, 2016.
+
+\bibitem{mnih2015human}
+Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei~A. Rusu, Joel Veness,
+  Marc~G. Bellemare, Alex Graves, Martin Riedmiller, Andreas~K. Fidjeland,
+  Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis
+  Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and
+  Demis Hassabis.
+\newblock Human-level control through deep reinforcement learning.
+\newblock {\em Nature}, 518(7540):529--533, 2015.
+
+\bibitem{silver2017mastering}
+David Silver, Julian Schrittwieser, Karen Simonyan, Ioannis Antonoglou, Aja
+  Huang, Arthur Guez, Thomas Hubert, Lucas Baker, Matthew Lai, Adrian Bolton,
+  et~al.
+\newblock Mastering the game of go without human knowledge.
+\newblock {\em Nature}, 550(7676):354--359, 2017.
+
+\bibitem{NEURIPS2020_1457c0d6}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon
+  Child, Aditya Ramesh, Daniel Ziegler, Jeffrey Wu, Clemens Winter, Chris
+  Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+  Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever,
+  and Dario Amodei.
+\newblock Language models are few-shot learners.
+\newblock In H.~Larochelle, M.~Ranzato, R.~Hadsell, M.F. Balcan, and H.~Lin,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~33,
+  pages 1877--1901. Curran Associates, Inc., 2020.
+
+\bibitem{zeng2021pangualphalargescaleautoregressivepretrained}
+Wei Zeng, Xiaozhe Ren, Teng Su, Hui Wang, Yi~Liao, Zhiwei Wang, Xin Jiang,
+  ZhenZhang Yang, Kaisheng Wang, Xiaoda Zhang, Chen Li, Ziyan Gong, Yifan Yao,
+  Xinjing Huang, Jun Wang, Jianfeng Yu, Qi~Guo, Yue Yu, Yan Zhang, Jin Wang,
+  Hengtao Tao, Dasen Yan, Zexuan Yi, Fang Peng, Fangqing Jiang, Han Zhang,
+  Lingfeng Deng, Yehong Zhang, Zhe Lin, Chao Zhang, Shaojie Zhang, Mingyue Guo,
+  Shanzhi Gu, Gaojun Fan, Yaowei Wang, Xuefeng Jin, Qun Liu, and Yonghong Tian.
+\newblock Pangu-$\alpha$: Large-scale autoregressive pretrained chinese
+  language models with auto-parallel computation, 2021.
+
+\bibitem{openai2024gpt4technicalreport}
+OpenAI, Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya,
+  Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman,
+  Shyamal Anadkat, Red Avila, Igor Babuschkin, Suchir Balaji, Valerie Balcom,
+  Paul Baltescu, Haiming Bao, Mohammad Bavarian, Jeff Belgum, Irwan Bello, Jake
+  Berdine, Gabriel Bernadett-Shapiro, Christopher Berner, Lenny Bogdonoff, Oleg
+  Boiko, Madelaine Boyd, Anna-Luisa Brakman, Greg Brockman, Tim Brooks, Miles
+  Brundage, Kevin Button, Trevor Cai, Rosie Campbell, Andrew Cann, Brittany
+  Carey, Chelsea Carlson, Rory Carmichael, Brooke Chan, Che Chang, Fotis
+  Chantzis, Derek Chen, Sully Chen, Ruby Chen, Jason Chen, Mark Chen, Ben
+  Chess, Chester Cho, Casey Chu, Hyung~Won Chung, Dave Cummings, Jeremiah
+  Currier, Yunxing Dai, Cory Decareaux, Thomas Degry, Noah Deutsch, Damien
+  Deville, Arka Dhar, David Dohan, Steve Dowling, Sheila Dunning, Adrien
+  Ecoffet, Atty Eleti, Tyna Eloundou, David Farhi, Liam Fedus, Niko Felix,
+  Simón~Posada Fishman, Juston Forte, Isabella Fulford, Leo Gao, Elie Georges,
+  Christian Gibson, Vik Goel, Tarun Gogineni, Gabriel Goh, Rapha Gontijo-Lopes,
+  Jonathan Gordon, Morgan Grafstein, Scott Gray, Ryan Greene, Joshua Gross,
+  Shixiang~Shane Gu, Yufei Guo, Chris Hallacy, Jesse Han, Jeff Harris, Yuchen
+  He, Mike Heaton, Johannes Heidecke, Chris Hesse, Alan Hickey, Wade Hickey,
+  Peter Hoeschele, Brandon Houghton, Kenny Hsu, Shengli Hu, Xin Hu, Joost
+  Huizinga, Shantanu Jain, Shawn Jain, Joanne Jang, Angela Jiang, Roger Jiang,
+  Haozhun Jin, Denny Jin, Shino Jomoto, Billie Jonn, Heewoo Jun, Tomer Kaftan,
+  Łukasz Kaiser, Ali Kamali, Ingmar Kanitscheider, Nitish~Shirish Keskar,
+  Tabarak Khan, Logan Kilpatrick, Jong~Wook Kim, Christina Kim, Yongjik Kim,
+  Jan~Hendrik Kirchner, Jamie Kiros, Matt Knight, Daniel Kokotajlo, Łukasz
+  Kondraciuk, Andrew Kondrich, Aris Konstantinidis, Kyle Kosic, Gretchen
+  Krueger, Vishal Kuo, Michael Lampe, Ikai Lan, Teddy Lee, Jan Leike, Jade
+  Leung, Daniel Levy, Chak~Ming Li, Rachel Lim, Molly Lin, Stephanie Lin,
+  Mateusz Litwin, Theresa Lopez, Ryan Lowe, Patricia Lue, Anna Makanju, Kim
+  Malfacini, Sam Manning, Todor Markov, Yaniv Markovski, Bianca Martin, Katie
+  Mayer, Andrew Mayne, Bob McGrew, Scott~Mayer McKinney, Christine McLeavey,
+  Paul McMillan, Jake McNeil, David Medina, Aalok Mehta, Jacob Menick, Luke
+  Metz, Andrey Mishchenko, Pamela Mishkin, Vinnie Monaco, Evan Morikawa, Daniel
+  Mossing, Tong Mu, Mira Murati, Oleg Murk, David Mély, Ashvin Nair, Reiichiro
+  Nakano, Rajeev Nayak, Arvind Neelakantan, Richard Ngo, Hyeonwoo Noh, Long
+  Ouyang, Cullen O'Keefe, Jakub Pachocki, Alex Paino, Joe Palermo, Ashley
+  Pantuliano, Giambattista Parascandolo, Joel Parish, Emy Parparita, Alex
+  Passos, Mikhail Pavlov, Andrew Peng, Adam Perelman, Filipe de~Avila
+  Belbute~Peres, Michael Petrov, Henrique~Ponde de~Oliveira~Pinto, Michael,
+  Pokorny, Michelle Pokrass, Vitchyr~H. Pong, Tolly Powell, Alethea Power,
+  Boris Power, Elizabeth Proehl, Raul Puri, Alec Radford, Jack Rae, Aditya
+  Ramesh, Cameron Raymond, Francis Real, Kendra Rimbach, Carl Ross, Bob
+  Rotsted, Henri Roussez, Nick Ryder, Mario Saltarelli, Ted Sanders, Shibani
+  Santurkar, Girish Sastry, Heather Schmidt, David Schnurr, John Schulman,
+  Daniel Selsam, Kyla Sheppard, Toki Sherbakov, Jessica Shieh, Sarah Shoker,
+  Pranav Shyam, Szymon Sidor, Eric Sigler, Maddie Simens, Jordan Sitkin,
+  Katarina Slama, Ian Sohl, Benjamin Sokolowsky, Yang Song, Natalie Staudacher,
+  Felipe~Petroski Such, Natalie Summers, Ilya Sutskever, Jie Tang, Nikolas
+  Tezak, Madeleine~B. Thompson, Phil Tillet, Amin Tootoonchian, Elizabeth
+  Tseng, Preston Tuggle, Nick Turley, Jerry Tworek, Juan Felipe~Cerón Uribe,
+  Andrea Vallone, Arun Vijayvergiya, Chelsea Voss, Carroll Wainwright,
+  Justin~Jay Wang, Alvin Wang, Ben Wang, Jonathan Ward, Jason Wei, CJ~Weinmann,
+  Akila Welihinda, Peter Welinder, Jiayi Weng, Lilian Weng, Matt Wiethoff, Dave
+  Willner, Clemens Winter, Samuel Wolrich, Hannah Wong, Lauren Workman, Sherwin
+  Wu, Jeff Wu, Michael Wu, Kai Xiao, Tao Xu, Sarah Yoo, Kevin Yu, Qiming Yuan,
+  Wojciech Zaremba, Rowan Zellers, Chong Zhang, Marvin Zhang, Shengjia Zhao,
+  Tianhao Zheng, Juntang Zhuang, William Zhuk, and Barret Zoph.
+\newblock Gpt-4 technical report, 2024.
+
+\bibitem{NIPS2014_5ca3e9b1}
+Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+  Sherjil Ozair, Aaron Courville, and Yoshua Bengio.
+\newblock Generative adversarial nets.
+\newblock In Z.~Ghahramani, M.~Welling, C.~Cortes, N.~Lawrence, and K.Q.
+  Weinberger, editors, {\em Advances in Neural Information Processing Systems},
+  volume~27. Curran Associates, Inc., 2014.
+
+\bibitem{DBLP:journals/corr/RadfordMC15}
+Alec Radford, Luke Metz, and Soumith Chintala.
+\newblock Unsupervised representation learning with deep convolutional
+  generative adversarial networks.
+\newblock In Yoshua Bengio and Yann LeCun, editors, {\em International
+  Conference on Learning Representations}, 2016.
+
+\bibitem{Rombach_2022_CVPR}
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj\"orn
+  Ommer.
+\newblock High-resolution image synthesis with latent diffusion models.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 10684--10695, June 2022.
+
+\bibitem{hassabis2017neuroscience}
+Demis Hassabis, Dharshan Kumaran, Christopher Summerfield, and Matthew
+  Botvinick.
+\newblock Neuroscience-inspired artificial intelligence.
+\newblock {\em Neuron}, 95(2):245--258, 2017.
+
+\bibitem{Zador2023}
+Anthony Zador, Sean Escola, Blake Richards, Bence {\"O}lveczky, Yoshua Bengio,
+  Kwabena Boahen, Matthew Botvinick, Dmitri Chklovskii, Anne Churchland,
+  Claudia Clopath, James DiCarlo, Surya Ganguli, Jeff Hawkins, Konrad
+  K{\"o}rding, Alexei Koulakov, Yann LeCun, Timothy Lillicrap, Adam
+  Marblestone, Bruno Olshausen, Alexandre Pouget, Cristina Savin, Terrence
+  Sejnowski, Eero Simoncelli, Sara Solla, David Sussillo, Andreas~S. Tolias,
+  and Doris Tsao.
+\newblock Catalyzing next-generation artificial intelligence through neuroai.
+\newblock {\em Nature Communications}, 14(1):1597, Mar 2023.
+
+\bibitem{rosenblatt1958perceptron}
+Frank Rosenblatt.
+\newblock The perceptron: a probabilistic model for information storage and
+  organization in the brain.
+\newblock {\em Psychological Review}, 65(6):386, 1958.
+
+\bibitem{rumelhart1986learning}
+David~E Rumelhart, Geoffrey~E Hinton, and Ronald~J Williams.
+\newblock Learning representations by back-propagating errors.
+\newblock {\em Nature}, 323(6088):533--536, 1986.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine Learning}, 20(3):273--297, 1995.
+
+\bibitem{maass1997networks}
+Wolfgang Maass.
+\newblock Networks of spiking neurons: the third generation of neural network
+  models.
+\newblock {\em Neural Networks}, 10(9):1659--1671, 1997.
+
+\bibitem{gewaltig2007nest}
+Marc-Oliver Gewaltig and Markus Diesmann.
+\newblock Nest (neural simulation tool).
+\newblock {\em Scholarpedia}, 2(4):1430, 2007.
+
+\bibitem{spaun}
+Chris Eliasmith, Terrence~C. Stewart, Xuan Choo, Trevor Bekolay, Travis DeWolf,
+  Yichuan Tang, and Daniel Rasmussen.
+\newblock A large-scale model of the functioning brain.
+\newblock {\em Science}, 338(6111):1202--1205, 2012.
+
+\bibitem{Stimberg2019}
+Marcel Stimberg, Romain Brette, and Dan~FM Goodman.
+\newblock Brian 2, an intuitive and efficient neural simulator.
+\newblock {\em eLife}, 8:e47314, 2019.
+
+\bibitem{mead1990neuromorphic}
+Carver Mead.
+\newblock Neuromorphic electronic systems.
+\newblock {\em Proceedings of the IEEE}, 78(10):1629--1636, 1990.
+
+\bibitem{roy2019towards}
+Kaushik Roy, Akhilesh Jaiswal, and Priyadarshini Panda.
+\newblock Towards spike-based machine intelligence with neuromorphic computing.
+\newblock {\em Nature}, 575(7784):607--617, 2019.
+
+\bibitem{lichtsteiner2008128}
+Patrick Lichtsteiner, Christoph Posch, and Tobi Delbruck.
+\newblock A 128$\times$128 120 db 15$\mu$s latency asynchronous temporal
+  contrast vision sensor.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 43(2):566--576, 2008.
+
+\bibitem{dong2017spike}
+Siwei Dong, Tiejun Huang, and Yonghong Tian.
+\newblock Spike camera and its coding methods.
+\newblock In {\em Data Compression Conference}, pages 437--437. IEEE Computer
+  Society, 2017.
+
+\bibitem{merolla2014million}
+Paul~A. Merolla, John~V. Arthur, Rodrigo Alvarez-Icaza, Andrew~S. Cassidy, Jun
+  Sawada, Filipp Akopyan, Bryan~L. Jackson, Nabil Imam, Chen Guo, Yutaka
+  Nakamura, Bernard Brezzo, Ivan Vo, Steven~K. Esser, Rathinakumar Appuswamy,
+  Brian Taba, Arnon Amir, Myron~D. Flickner, William~P. Risk, Rajit Manohar,
+  and Dharmendra~S. Modha.
+\newblock A million spiking-neuron integrated circuit with a scalable
+  communication network and interface.
+\newblock {\em Science}, 345(6197):668--673, 2014.
+
+\bibitem{loihi}
+Mike Davies, Narayan Srinivasa, Tsung-Han Lin, Gautham Chinya, Yongqiang Cao,
+  Sri~Harsha Choday, Georgios Dimou, Prasad Joshi, Nabil Imam, Shweta Jain,
+  Yuyun Liao, Chit-Kwan Lin, Andrew Lines, Ruokun Liu, Deepak Mathaikutty,
+  Steven McCoy, Arnab Paul, Jonathan Tse, Guruguhanathan Venkataramanan,
+  Yi-Hsin Weng, Andreas Wild, Yoonseok Yang, and Hong Wang.
+\newblock Loihi: a neuromorphic manycore processor with on-chip learning.
+\newblock {\em IEEE Micro}, 38(1):82--99, 2018.
+
+\bibitem{ma2017darwin}
+De~Ma, Juncheng Shen, Zonghua Gu, Ming Zhang, Xiaolei Zhu, Xiaoqiang Xu, Qi~Xu,
+  Yangjing Shen, and Gang Pan.
+\newblock Darwin: a neuromorphic hardware co-processor based on spiking neural
+  networks.
+\newblock {\em Journal of Systems Architecture}, 77:43--51, 2017.
+
+\bibitem{pei2019towards}
+Jing Pei, Lei Deng, Sen Song, Mingguo Zhao, Youhui Zhang, Shuang Wu, Guanrui
+  Wang, Zhe Zou, Zhenzhi Wu, Wei He, Feng Chen, Ning Deng, Si~Wu, Yu~Wang,
+  Yujie Wu, Zheyu Yang, Cheng Ma, Guoqi Li, Wentao Han, Huanglong Li, Huaqiang
+  Wu, Rong Zhao, Yuan Xie, and Luping Shi.
+\newblock Towards artificial general intelligence with hybrid tianjic chip
+  architecture.
+\newblock {\em Nature}, 572(7767):106--111, 2019.
+
+\bibitem{10.1162/neco.2006.18.7.1527}
+Geoffrey~E. Hinton, Simon Osindero, and Yee-Whye Teh.
+\newblock A fast learning algorithm for deep belief nets.
+\newblock {\em Neural Computation}, 18(7):1527--1554, 07 2006.
+
+\bibitem{MNIST}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+
+\bibitem{NIPS2012_c399862d}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In F.~Pereira, C.J. Burges, L.~Bottou, and K.Q. Weinberger, editors,
+  {\em Advances in Neural Information Processing Systems}, volume~25. Curran
+  Associates, Inc., 2012.
+
+\bibitem{russakovsky2015imagenet}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein,
+  Alexander~C. Berg, and Li~Fei-Fei.
+\newblock Imagenet large scale visual recognition challenge.
+\newblock {\em International Journal of Computer Vision}, 115(3):211--252,
+  2015.
+
+\bibitem{neftci2019surrogate}
+Emre~O Neftci, Hesham Mostafa, and Friedemann Zenke.
+\newblock Surrogate gradient learning in spiking neural networks: Bringing the
+  power of gradient-based optimization to spiking neural networks.
+\newblock {\em IEEE Signal Processing Magazine}, 36(6):51--63, 2019.
+
+\bibitem{cao2015spiking}
+Yongqiang Cao, Yang Chen, and Deepak Khosla.
+\newblock Spiking deep convolutional neural networks for energy-efficient
+  object recognition.
+\newblock {\em International Journal of Computer Vision}, 113(1):54--66, 2015.
+
+\bibitem{TAVANAEI201947}
+Amirhossein Tavanaei, Masoud Ghodrati, Saeed~Reza Kheradpisheh, Timoth{\'e}e
+  Masquelier, and Anthony Maida.
+\newblock Deep learning in spiking neural networks.
+\newblock {\em Neural Networks}, 111:47--63, 2019.
+
+\bibitem{wu2018STBP}
+Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, and Luping Shi.
+\newblock Spatio-temporal backpropagation for training high-performance spiking
+  neural networks.
+\newblock {\em Frontiers in Neuroscience}, 12:331, 2018.
+
+\bibitem{10.1162/neco_a_01086}
+Friedemann Zenke and Surya Ganguli.
+\newblock Superspike: Supervised learning in multilayer spiking neural
+  networks.
+\newblock {\em Neural Computation}, 30(6):1514--1541, 06 2018.
+
+\bibitem{shrestha2018slayer}
+Sumit~Bam Shrestha and Garrick Orchard.
+\newblock Slayer: Spike layer error reassignment in time.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  1419--1428, 2018.
+
+\bibitem{doi:10.1126/sciadv.adi1480}
+Wei Fang, Yanqi Chen, Jianhao Ding, Zhaofei Yu, Timothée Masquelier, Ding
+  Chen, Liwei Huang, Huihui Zhou, Guoqi Li, and Yonghong Tian.
+\newblock Spikingjelly: An open-source machine learning infrastructure platform
+  for spike-based intelligence.
+\newblock {\em Science Advances}, 9(40):eadi1480, 2023.
+
+\bibitem{SEWResNet}
+Wei Fang, Zhaofei Yu, Yanqi Chen, Tiejun Huang, Timoth{\'e}e Masquelier, and
+  Yonghong Tian.
+\newblock Deep residual learning in spiking neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~34, 2021.
+
+\bibitem{zhou2023spikformer}
+Zhaokun Zhou, Yuesheng Zhu, Chao He, Yaowei Wang, Shuicheng YAN, Yonghong Tian,
+  and Li~Yuan.
+\newblock Spikformer: When spiking neural network meets transformer.
+\newblock In {\em International Conference on Learning Representations}, 2023.
+
+\bibitem{NEURIPS2023_ca0f5358}
+Man Yao, JiaKui Hu, Zhaokun Zhou, Li~Yuan, Yonghong Tian, Bo~Xu, and Guoqi Li.
+\newblock Spike-driven transformer.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~36, pages 64043--64058, 2023.
+
+\bibitem{Yao2024}
+Man Yao, Ole Richter, Guangshe Zhao, Ning Qiao, Yannan Xing, Dingheng Wang,
+  Tianxiang Hu, Wei Fang, Tugba Demirci, Michele De~Marchi, Lei Deng, Tianyi
+  Yan, Carsten Nielsen, Sadique Sheik, Chenxi Wu, Yonghong Tian, Bo~Xu, and
+  Guoqi Li.
+\newblock Spike-based dynamic computing with asynchronous sensing-computing
+  neuromorphic chip.
+\newblock {\em Nature Communications}, 15(1):4464, May 2024.
+
+\bibitem{ioffe2015batch}
+Sergey Ioffe and Christian Szegedy.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock In {\em International Conference on Machine Learning}, pages
+  448--456. PMLR, 2015.
+
+\bibitem{ba2016layer}
+Jimmy~Lei Ba, Jamie~Ryan Kiros, and Geoffrey~E Hinton.
+\newblock Layer normalization.
+\newblock {\em arXiv preprint arXiv:1607.06450}, 2016.
+
+\bibitem{izhikevich2003simple}
+Eugene~M Izhikevich.
+\newblock Simple model of spiking neurons.
+\newblock {\em IEEE Transactions on Neural Networks}, 14(6):1569--1572, 2003.
 
 \bibitem{fang2021incorporating}
 Wei Fang, Zhaofei Yu, Yanqi Chen, Timoth{\'e}e Masquelier, Tiejun Huang, and
@@ -7,5 +433,586 @@ Wei Fang, Zhaofei Yu, Yanqi Chen, Timoth{\'e}e Masquelier, Tiejun Huang, and
   spiking neural networks.
 \newblock In {\em Proceedings of the IEEE/CVF International Conference on
   Computer Vision}, pages 2661--2671, 2021.
+
+\bibitem{ledinauskas2020training}
+Eimantas Ledinauskas, Julius Ruseckas, Alfonsas Jur{\v{s}}{\.e}nas, and
+  Giedrius Bura{\v{c}}as.
+\newblock Training deep spiking neural networks.
+\newblock {\em arXiv preprint arXiv:2006.04436}, 2020.
+
+\bibitem{Bodo2017Conversion}
+Bodo Rueckauer, Iulia-Alexandra Lungu, Yuhuang Hu, Michael Pfeiffer, and
+  Shih-Chii Liu.
+\newblock Conversion of continuous-valued deep networks to efficient
+  event-driven networks for image classification.
+\newblock {\em Frontiers in Neuroscience}, 11:682, 2017.
+
+\bibitem{FMNIST}
+Han Xiao, Kashif Rasul, and Roland Vollgraf.
+\newblock Fashion-mnist: a novel image dataset for benchmarking machine
+  learning algorithms.
+\newblock {\em arXiv preprint arXiv:1708.07747}, 2017.
+
+\bibitem{CIFAR10}
+Alex Krizhevsky and Geoffrey Hinton.
+\newblock Learning multiple layers of features from tiny images.
+\newblock 2009.
+
+\bibitem{10.3389/fnins.2015.00437}
+Garrick Orchard, Ajinkya Jayawant, Gregory~K. Cohen, and Nitish Thakor.
+\newblock Converting static image datasets to spiking neuromorphic datasets
+  using saccades.
+\newblock {\em Frontiers in Neuroscience}, 9, 2015.
+
+\bibitem{10.3389/fnins.2017.00309}
+Hongmin Li, Hanchao Liu, Xiangyang Ji, Guoqi Li, and Luping Shi.
+\newblock Cifar10-dvs: an event-stream dataset for object classification.
+\newblock {\em Frontiers in Neuroscience}, 11, 2017.
+
+\bibitem{amir2017low}
+Arnon Amir, Brian Taba, David Berg, Timothy Melano, Jeffrey McKinstry, Carmelo
+  Di~Nolfo, Tapan Nayak, Alexander Andreopoulos, Guillaume Garreau, Marcela
+  Mendoza, Jeff Kusnitz, Michael Debole, Steve Esser, Tobi Delbruck, Myron
+  Flickner, and Dharmendra Modha.
+\newblock A low power, fully event-based gesture recognition system.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 7243--7252, 2017.
+
+\bibitem{Bi_2019_ICCV}
+Yin Bi, Aaron Chadha, Alhabib Abbas, Eirina Bourtsoulatze, and Yiannis
+  Andreopoulos.
+\newblock Graph-based object classification for neuromorphic vision sensing.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, 2019.
+
+\bibitem{10.3389/fnins.2021.726582}
+Yihan Lin, Wei Ding, Shaohua Qiang, Lei Deng, and Guoqi Li.
+\newblock Es-imagenet: a million event-stream classification dataset for
+  spiking neural networks.
+\newblock {\em Frontiers in Neuroscience}, 15, 2021.
+
+\bibitem{shd}
+Benjamin Cramer, Yannik Stradmann, Johannes Schemmel, and Friedemann Zenke.
+\newblock The heidelberg spiking data sets for the systematic evaluation of
+  spiking neural networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  33(7):2744--2757, 2022.
+
+\bibitem{10.3389/fnins.2021.608567}
+Laxmi~R. Iyer, Yansong Chua, and Haizhou Li.
+\newblock Is neuromorphic mnist neuromorphic? analyzing the discriminative
+  power of neuromorphic datasets in the time domain.
+\newblock {\em Frontiers in Neuroscience}, 15, 2021.
+
+\bibitem{yin2021accurate}
+Bojian Yin, Federico Corradi, and Sander~M Boht{\'e}.
+\newblock Accurate and efficient time-domain classification with adaptive
+  spiking recurrent neural networks.
+\newblock {\em Nature Machine Intelligence}, 3(10):905--913, 2021.
+
+\bibitem{fang2023parallel}
+Wei Fang, Zhaofei Yu, Zhaokun Zhou, Ding Chen, Yanqi Chen, Zhengyu Ma,
+  Timoth{\'e}e Masquelier, and Yonghong Tian.
+\newblock Parallel spiking neurons with high efficiency and ability to learn
+  long-term dependencies.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2023.
+
+\bibitem{Yang2024}
+Zheyu Yang, Taoyi Wang, Yihan Lin, Yuguo Chen, Hui Zeng, Jing Pei, Jiazheng
+  Wang, Xue Liu, Yichun Zhou, Jianqiang Zhang, Xin Wang, Xinhao Lv, Rong Zhao,
+  and Luping Shi.
+\newblock A vision chip with complementary pathways for open-world sensing.
+\newblock {\em Nature}, 629(8014):1027--1033, May 2024.
+
+\bibitem{Zenke2020.06.29.176925}
+Friedemann Zenke and Tim~P Vogels.
+\newblock The remarkable robustness of surrogate gradient learning for
+  instilling complex function in spiking neural networks.
+\newblock {\em BioRxiv}, 2020.
+
+\bibitem{li2021differentiable}
+Yuhang Li, Yufei Guo, Shanghang Zhang, Shikuang Deng, Yongqing Hai, and Shi Gu.
+\newblock Differentiable spike: Rethinking gradient-descent for training
+  spiking neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2021.
+
+\bibitem{wu2021tandem}
+Jibin Wu, Yansong Chua, Malu Zhang, Guoqi Li, Haizhou Li, and Kay~Chen Tan.
+\newblock A tandem learning rule for effective training and rapid inference of
+  deep spiking neural networks.
+\newblock {\em IEEE transactions on neural networks and learning systems},
+  34(1):446—460, January 2023.
+
+\bibitem{qiu2024self}
+Haonan Qiu, Munan Ning, Zeyin Song, Wei Fang, Yanqi Chen, Tao Sun, Zhengyu Ma,
+  Li~Yuan, and Yonghong Tian.
+\newblock Self-architectural knowledge distillation for spiking neural
+  networks.
+\newblock {\em Neural Networks}, 178:106475, 2024.
+
+\bibitem{kheradpisheh2022spiking}
+Saeed~Reza Kheradpisheh, Maryam Mirsadeghi, and Timoth{\'e}e Masquelier.
+\newblock Spiking neural networks trained via proxy.
+\newblock {\em IEEE Access}, 2022.
+
+\bibitem{xu2023constructing}
+Qi~Xu, Yaxin Li, Jiangrong Shen, Jian~K. Liu, Huajin Tang, and Gang Pan.
+\newblock Constructing deep spiking neural networks from artificial neural
+  networks with knowledge distillation.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 7886--7895, June 2023.
+
+\bibitem{yao2022glif}
+Xingting Yao, Fanrong Li, Zitao Mo, and Jian Cheng.
+\newblock {GLIF}: a unified gated leaky integrate-and-fire neuron for spiking
+  neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem{ijcai2022p343}
+Lang Feng, Qianhui Liu, Huajin Tang, De~Ma, and Gang Pan.
+\newblock Multi-level firing with spiking ds-resnet: Enabling better and deeper
+  directly-trained spiking neural networks.
+\newblock In {\em International Joint Conference on Artificial Intelligence},
+  pages 2471--2477, 2022.
+
+\bibitem{huang2024clif}
+Yulong Huang, Xiaopeng LIN, Hongwei Ren, Haotian FU, Yue Zhou, Zunchang LIU,
+  biao pan, and Bojun Cheng.
+\newblock {CLIF}: Complementary leaky integrate-and-fire neuron for spiking
+  neural networks.
+\newblock In {\em Forty-first International Conference on Machine Learning},
+  2024.
+
+\bibitem{10191884}
+Sidi Yaya~Arnaud Yarga and Sean U.~N. Wood.
+\newblock Accelerating snn training with stochastic parallelizable spiking
+  neurons.
+\newblock In {\em International Joint Conference on Neural Networks}, pages
+  1--8, 2023.
+
+\bibitem{8351295}
+Bodo Rueckauer and Shih-Chii Liu.
+\newblock Conversion of analog to spiking neural networks using sparse temporal
+  coding.
+\newblock In {\em IEEE International Symposium on Circuits and Systems}, pages
+  1--5, 2018.
+
+\bibitem{BOHTE200217}
+Sander~M Bohte, Joost~N Kok, and Han La~Poutre.
+\newblock Error-backpropagation in temporally encoded networks of spiking
+  neurons.
+\newblock {\em Neurocomputing}, 48(1-4):17--37, 2002.
+
+\bibitem{8050527}
+Hesham Mostafa, Bruno~U. Pedroni, Sadique Sheik, and Gert Cauwenberghs.
+\newblock Fast classification using sparsely active spiking networks.
+\newblock In {\em IEEE International Symposium on Circuits and Systems}, pages
+  1--4, 2017.
+
+\bibitem{mostafa2017supervised}
+Hesham Mostafa.
+\newblock Supervised learning based on temporal coding in spiking neural
+  networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  29(7):3227--3235, 2017.
+
+\bibitem{kheradpisheh2020temporal}
+Saeed~Reza Kheradpisheh and Timoth{\'e}e Masquelier.
+\newblock Temporal backpropagation for spiking neural networks with one spike
+  per neuron.
+\newblock {\em International Journal of Neural Systems}, 30(06):2050027, 2020.
+
+\bibitem{SNN-IIR}
+Haowen Fang, Amar Shrestha, Ziyi Zhao, and Qinru Qiu.
+\newblock Exploiting neuron and synapse filter dynamics in spatial temporal
+  learning of deep spiking neural network.
+\newblock In {\em International Joint Conference on Artificial Intelligence},
+  pages 2799--2806, 2020.
+
+\bibitem{hammouamri2024learning}
+Ilyass Hammouamri, Ismail Khalfaoui-Hassani, and Timoth{\'e}e Masquelier.
+\newblock Learning delays in spiking neural networks using dilated convolutions
+  with learnable spacings.
+\newblock In {\em The Twelfth International Conference on Learning
+  Representations}, 2024.
+
+\bibitem{hu2020spiking}
+Yangfan Hu, Huajin Tang, and Gang Pan.
+\newblock Spiking deep residual networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  34(8):5200--5205, 2023.
+
+\bibitem{zheng2020going}
+Hanle Zheng, Yujie Wu, Lei Deng, Yifan Hu, and Guoqi Li.
+\newblock Going deeper with directly-trained larger spiking neural networks.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~35, pages 11062--11070, 2021.
+
+\bibitem{10428029}
+Yifan Hu, Lei Deng, Yujie Wu, Man Yao, and Guoqi Li.
+\newblock Advancing spiking neural networks toward deep residual learning.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  pages 1--15, 2024.
+
+\bibitem{graves2014generatingsequencesrecurrentneural}
+Alex Graves.
+\newblock Generating sequences with recurrent neural networks, 2014.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+
+\bibitem{Yao_2021_ICCV}
+Man Yao, Huanhuan Gao, Guangshe Zhao, Dingheng Wang, Yihan Lin, Zhaoxu Yang,
+  and Guoqi Li.
+\newblock Temporal-wise attention spiking neural networks for event streams
+  classification.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 10221--10230, 2021.
+
+\bibitem{Yao_2023_ICCV}
+Man Yao, Jiakui Hu, Guangshe Zhao, Yaoyuan Wang, Ziyang Zhang, Bo~Xu, and Guoqi
+  Li.
+\newblock Inherent redundancy in spiking neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 16924--16934, October 2023.
+
+\bibitem{yao2023sparser}
+Man Yao, Hengyu Zhang, Guangshe Zhao, Xiyu Zhang, Dingheng Wang, Gang Cao, and
+  Guoqi Li.
+\newblock Sparser spiking activity can be better: Feature refine-and-mask
+  spiking neural network for event-based visual recognition.
+\newblock {\em Neural Networks}, 166:410--423, 2023.
+
+\bibitem{xu2023enhancing}
+Qi~Xu, Yuyuan Gao, Jiangrong Shen, Yaxin Li, Xuming Ran, Huajin Tang, and Gang
+  Pan.
+\newblock Enhancing adaptive history reserving by spiking convolutional block
+  attention module in recurrent neural networks.
+\newblock In A.~Oh, T.~Naumann, A.~Globerson, K.~Saenko, M.~Hardt, and
+  S.~Levine, editors, {\em Advances in Neural Information Processing Systems},
+  volume~36, pages 58890--58901. Curran Associates, Inc., 2023.
+
+\bibitem{10032591}
+Man Yao, Guangshe Zhao, Hengyu Zhang, Yifan Hu, Lei Deng, Yonghong Tian, Bo~Xu,
+  and Guoqi Li.
+\newblock Attention spiking neural networks.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  45(8):9393--9410, 2023.
+
+\bibitem{zhu2022tcja}
+Rui-Jie Zhu, Malu Zhang, Qihang Zhao, Haoyu Deng, Yule Duan, and Liang-Jian
+  Deng.
+\newblock Tcja-snn: Temporal-channel joint attention for spiking neural
+  networks.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  pages 1--14, 2024.
+
+\bibitem{huang2022tada}
+Ziyuan Huang, Shiwei Zhang, Liang Pan, Zhiwu Qing, Mingqian Tang, Ziwei Liu,
+  and Marcelo H~Ang Jr.
+\newblock Tada! temporally-adaptive convolutions for video understanding.
+\newblock In {\em International Conference on Learning Representations}, 2022.
+
+\bibitem{wang2018non}
+Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He.
+\newblock Non-local neural networks.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 7794--7803, 2018.
+
+\bibitem{kim2023c}
+Sangyeob Kim, Soyeon Kim, Seongyon Hong, Sangjin Kim, Donghyeon Han, and
+  Hoi-Jun Yoo.
+\newblock C-dnn: a 24.5-85.8 tops/w complementary-deep-neural-network processor
+  with heterogeneous cnn/snn core architecture and forward-gradient-based
+  sparsity generation.
+\newblock In {\em IEEE International Solid-State Circuits Conference}, pages
+  334--336. IEEE, 2023.
+
+\bibitem{chang202373}
+Muya Chang, Ashwin~Sanjay Lele, Samuel~D. Spetalnick, Brian Crafton, Shota
+  Konno, Zishen Wan, Ashwin Bhat, Win-San Khwa, Yu-Der Chih, Meng-Fan Chang,
+  and Arijit Raychowdhury.
+\newblock A heterogeneous rram in-memory and sram near-memory soc for fused
+  frame and event-based target identification and tracking.
+\newblock In {\em IEEE International Solid-State Circuits Conference}, pages
+  426--428. IEEE, 2023.
+
+\bibitem{zhang2022spiking}
+Jiqing Zhang, Bo~Dong, Haiwei Zhang, Jianchuan Ding, Felix Heide, Baocai Yin,
+  and Xin Yang.
+\newblock Spiking transformers for event-based single object tracking.
+\newblock In {\em Proceedings of the IEEE/CVF conference on Computer Vision and
+  Pattern Recognition}, pages 8801--8810, 2022.
+
+\bibitem{zhang2022spike}
+Jiyuan Zhang, Lulu Tang, Zhaofei Yu, Jiwen Lu, and Tiejun Huang.
+\newblock Spike transformer: Monocular depth estimation for spiking camera.
+\newblock In {\em European Conference on Computer Vision}, pages 34--52.
+  Springer, 2022.
+
+\bibitem{han2023complex}
+Minglun Han, Qingyu Wang, Tielin Zhang, Yi~Wang, Duzhen Zhang, and Bo~Xu.
+\newblock Complex dynamic neurons improved spiking transformer network for
+  efficient automatic speech recognition.
+\newblock {\em Proceedings of the AAAI Conference on Artificial Intelligence},
+  2023.
+
+\bibitem{Shi_2024_CVPR}
+Xinyu Shi, Zecheng Hao, and Zhaofei Yu.
+\newblock Spikingresformer: Bridging resnet and vision transformer in spiking
+  neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 5610--5619, June 2024.
+
+\bibitem{zhou2024qkformerhierarchicalspikingtransformer}
+Chenlin Zhou, Han Zhang, Zhaokun Zhou, Liutao Yu, Liwei Huang, Xiaopeng Fan,
+  Li~Yuan, Zhengyu Ma, Huihui Zhou, and Yonghong Tian.
+\newblock Qkformer: Hierarchical spiking transformer using q-k attention, 2024.
+
+\bibitem{hassani2022escapingbigdataparadigm}
+Ali Hassani, Steven Walton, Nikhil Shah, Abulikemu Abuduweili, Jiachen Li, and
+  Humphrey Shi.
+\newblock Escaping the big data paradigm with compact transformers, 2022.
+
+\bibitem{yao2024spikedriven}
+Man Yao, JiaKui Hu, Tianxiang Hu, Yifan Xu, Zhaokun Zhou, Yonghong Tian, Bo~XU,
+  and Guoqi Li.
+\newblock Spike-driven transformer v2: Meta spiking neural network architecture
+  inspiring the design of next-generation neuromorphic chips.
+\newblock In {\em The Twelfth International Conference on Learning
+  Representations}, 2024.
+
+\bibitem{liu2021swin}
+Ze~Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and
+  Baining Guo.
+\newblock Swin transformer: Hierarchical vision transformer using shifted
+  windows.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 10012--10022, 2021.
+
+\bibitem{6757323}
+Mark Horowitz.
+\newblock 1.1 computing's energy problem (and what we can do about it).
+\newblock In {\em IEEE International Solid-State Circuits Conference Digest of
+  Technical Papers}, pages 10--14, 2014.
+
+\bibitem{na2022autosnn}
+Byunggook Na, Jisoo Mok, Seongsik Park, Dongjin Lee, Hyeokjun Choe, and Sungroh
+  Yoon.
+\newblock {A}uto{SNN}: Towards energy-efficient spiking neural networks.
+\newblock In {\em Proceedings of the 39th International Conference on Machine
+  Learning}, volume 162 of {\em Proceedings of Machine Learning Research},
+  pages 16253--16269, 2022.
+
+\bibitem{kim2022neural}
+Youngeun Kim, Yuhang Li, Hyoungseob Park, Yeshwanth Venkatesha, and
+  Priyadarshini Panda.
+\newblock Neural architecture search for spiking neural networks.
+\newblock In {\em European Conference on Computer Vision}, pages 36--56, Cham,
+  2022.
+
+\bibitem{che2022differentiable}
+Kaiwei Che, Luziwei Leng, Kaixuan Zhang, Jianguo Zhang, Qinghu Meng, Jie Cheng,
+  Qinghai Guo, and Jianxing Liao.
+\newblock Differentiable hierarchical and surrogate gradient search for spiking
+  neural networks.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:24975--24990, 2022.
+
+\bibitem{neunorm}
+Yujie Wu, Lei Deng, Guoqi Li, Jun Zhu, Yuan Xie, and Luping Shi.
+\newblock Direct training for spiking neural networks: Faster, larger, better.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~33, pages 1311--1318, 2019.
+
+\bibitem{10.3389/fnins.2021.773954}
+Youngeun Kim and Priyadarshini Panda.
+\newblock Revisiting batch normalization for training low-latency deep spiking
+  neural networks from scratch.
+\newblock {\em Frontiers in Neuroscience}, 15, 2021.
+
+\bibitem{duan2022temporal}
+Chaoteng Duan, Jianhao Ding, Shiyan Chen, Zhaofei Yu, and Tiejun Huang.
+\newblock Temporal effective batch normalization in spiking neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem{Guo_2023_ICCV_mpbn}
+Yufei Guo, Yuhan Zhang, Yuanpei Chen, Weihang Peng, Xiaode Liu, Liwen Zhang,
+  Xuhui Huang, and Zhe Ma.
+\newblock Membrane potential batch normalization for spiking neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 19420--19430, October 2023.
+
+\bibitem{Guo_2023_ICCV_rmp}
+Yufei Guo, Xiaode Liu, Yuanpei Chen, Liwen Zhang, Weihang Peng, Yuhan Zhang,
+  Xuhui Huang, and Zhe Ma.
+\newblock Rmp-loss: Regularizing membrane potential distribution for spiking
+  neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 17391--17401, October 2023.
+
+\bibitem{deng2022temporal}
+Shikuang Deng, Yuhang Li, Shanghang Zhang, and Shi Gu.
+\newblock Temporal efficient training of spiking neural network via gradient
+  re-weighting.
+\newblock In {\em International Conference on Learning Representations}, 2022.
+
+\bibitem{li2022neuromorphic}
+Yuhang Li, Youngeun Kim, Hyoungseob Park, Tamar Geller, and Priyadarshini
+  Panda.
+\newblock Neuromorphic data augmentation for training spiking neural networks.
+\newblock In {\em European Conference on Computer Vision}, pages 631--649,
+  Cham, 2022.
+
+\bibitem{zhang2020temporal}
+Wenrui Zhang and Peng Li.
+\newblock Temporal spike sequence learning via backpropagation for deep spiking
+  neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  12022--12033, 2020.
+
+\bibitem{zhu2022training}
+Yaoyu Zhu, Zhaofei Yu, Wei Fang, Xiaodong Xie, Tiejun Huang, and Timoth{\'e}e
+  Masquelier.
+\newblock Training spiking neural networks with event-driven backpropagation.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem{zhu2024exploring}
+Yaoyu Zhu, Wei Fang, Xiaodong Xie, Tiejun Huang, and Zhaofei Yu.
+\newblock Exploring loss functions for time-based training strategy in spiking
+  neural networks.
+\newblock {\em Advances in Neural Information Processing Systems}, 36, 2024.
+
+\bibitem{kaiser2020synaptic}
+Jacques Kaiser, Hesham Mostafa, and Emre Neftci.
+\newblock Synaptic plasticity dynamics for deep continuous local learning
+  (decolle).
+\newblock {\em Frontiers in Neuroscience}, 14:424, 2020.
+
+\bibitem{xiao2022online}
+Mingqing Xiao, Qingyan Meng, Zongpeng Zhang, Di~He, and Zhouchen Lin.
+\newblock Online training through time for spiking neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2022.
+
+\bibitem{meng2022training}
+Qingyan Meng, Mingqing Xiao, Shen Yan, Yisen Wang, Zhouchen Lin, and Zhi-Quan
+  Luo.
+\newblock Training high-performance low-latency spiking neural networks by
+  differentiation on spike representation.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 12444--12453, 2022.
+
+\bibitem{meng2023towards}
+Qingyan Meng, Mingqing Xiao, Shen Yan, Yisen Wang, Zhouchen Lin, and Zhi-Quan
+  Luo.
+\newblock Towards memory- and time-efficient backpropagation for training
+  spiking neural networks.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pages 6166--6176, October 2023.
+
+\bibitem{jiang2024ndot}
+Haiyan Jiang, Giulia De~Masi, Huan Xiong, and Bin Gu.
+\newblock Ndot: Neuronal dynamics-based online training for spiking neural
+  networks.
+\newblock In {\em International Conference on Machine Learning}, 2024.
+
+\bibitem{zhu2024online}
+Yaoyu Zhu, Jianhao Ding, Tiejun Huang, Xiaodong Xie, and Zhaofei Yu.
+\newblock Online stabilization of spiking neural networks.
+\newblock In {\em International Conference on Learning Representations}, 2024.
+
+\bibitem{hu2024highperformance}
+JiaKui Hu, Man Yao, Xuerui Qiu, Yuhong Chou, Yuxuan Cai, Ning Qiao, Yonghong
+  Tian, Bo~XU, and Guoqi Li.
+\newblock High-performance temporal reversible spiking neural networks with
+  \${\textbackslash}mathcal\{O\}(l)\$ training memory and
+  \${\textbackslash}mathcal\{O\}(1)\$ inference cost.
+\newblock In {\em International Conference on Machine Learning}, 2024.
+
+\bibitem{liu2022convnet}
+Zhuang Liu, Hanzi Mao, Chao-Yuan Wu, Christoph Feichtenhofer, Trevor Darrell,
+  and Saining Xie.
+\newblock A convnet for the 2020s.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 11976--11986, 2022.
+
+\bibitem{perez-nieves2021sparse}
+Nicolas Perez-Nieves and Dan F.~M. Goodman.
+\newblock Sparse spiking gradient descent.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2021.
+
+\bibitem{NEURIPS2023_b9f253c2}
+Luke Taylor, Andrew King, and Nicol~S Harper.
+\newblock Addressing the speed-accuracy simulation trade-off for adaptive
+  spiking neurons.
+\newblock In A.~Oh, T.~Naumann, A.~Globerson, K.~Saenko, M.~Hardt, and
+  S.~Levine, editors, {\em Advances in Neural Information Processing Systems},
+  volume~36, pages 59360--59374. Curran Associates, Inc., 2023.
+
+\bibitem{rathi2021diet}
+Nitin Rathi and Kaushik Roy.
+\newblock Diet-snn: a low-latency spiking neural network with direct input
+  encoding and leakage and threshold optimization.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  2021.
+
+\bibitem{adrian1926impulses}
+Edgar~D Adrian and Yngve Zotterman.
+\newblock The impulses produced by sensory nerve endings: Part 3. impulses set
+  up by touch and pressure.
+\newblock {\em The Journal of Physiology}, 61(4):465, 1926.
+
+\bibitem{johansson2004first}
+Roland~S Johansson and Ingvars Birznieks.
+\newblock First spikes in ensembles of human tactile afferents code complex
+  spatial fingertip events.
+\newblock {\em Nature neuroscience}, 7(2):170--177, 2004.
+
+\bibitem{he2024network}
+Linxuan He, Yunhui Xu, Weihua He, Yihan Lin, Yang Tian, Yujie Wu, Wenhui Wang,
+  Ziyang Zhang, Junwei Han, Yonghong Tian, et~al.
+\newblock Network model with internal complexity bridges artificial
+  intelligence and neuroscience.
+\newblock {\em Nature Computational Science}, pages 1--16, 2024.
+
+\bibitem{gilbert2013top}
+Charles~D Gilbert and Wu~Li.
+\newblock Top-down influences on visual processing.
+\newblock {\em Nature reviews neuroscience}, 14(5):350--363, 2013.
+
+\bibitem{rao2022long}
+Arjun Rao, Philipp Plank, Andreas Wild, and Wolfgang Maass.
+\newblock A long short-term memory for ai applications in spike-based
+  neuromorphic hardware.
+\newblock {\em Nature Machine Intelligence}, 4(5):467--479, 2022.
+
+\bibitem{hebb1949the}
+Donald~Olding Hebb.
+\newblock {\em The Organization of Behavior: a Neuropsychological Theory}.
+\newblock 1949.
+
+\bibitem{bi1998synaptic}
+Guo-qiang Bi and Mu-ming Poo.
+\newblock Synaptic modifications in cultured hippocampal neurons: Dependence on
+  spike timing, synaptic strength, and postsynaptic cell type.
+\newblock {\em Journal of Neuroscience}, 18(24):10464--10472, 1998.
+
+\bibitem{imam2020rapid}
+Nabil Imam and Thomas~A Cleland.
+\newblock Rapid online learning and robust recall in a neuromorphic olfactory
+  circuit.
+\newblock {\em Nature Machine Intelligence}, 2(3):181--191, 2020.
+
+\bibitem{wu2022brain}
+Yujie Wu, Rong Zhao, Jun Zhu, Feng Chen, Mingkun Xu, Guoqi Li, Sen Song, Lei
+  Deng, Guanrui Wang, Hao Zheng, Songchen Ma, Jing Pei, Youhui Zhang, Mingguo
+  Zhao, and Luping Shi.
+\newblock Brain-inspired global-local learning incorporated with neuromorphic
+  computing.
+\newblock {\em Nature Communications}, 13(1):1--14, 2022.
 
 \end{thebibliography}

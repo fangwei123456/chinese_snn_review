@@ -350,7 +350,7 @@
 }
 
 
-\def\makeentitle{
+\def\makeentitle{ 
     \begin{flushleft}
         %英文标题
         \renewcommand{\baselinestretch}{0.85}

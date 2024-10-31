@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  12 JUL 2024 17:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.11)  22 AUG 2024 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -886,85 +886,100 @@ Package caption Info: supertabular package is loaded.
 \c@assumption=\count384
 \c@remark=\count385
 \c@property=\count386
-) (./sciscn.aux)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen327
+\c@nlinenum=\count387
+\TeXr@lab=\toks44
+)
+(c:/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count388
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count389
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+ (./sciscn.aux)
 \openout1 = `sciscn.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
-LaTeX Font Info:    Redeclaring math accent \check on input line 26.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 34.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 34.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 34.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 34.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 34.
+LaTeX Font Info:    Redeclaring math accent \check on input line 34.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 34.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 34.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 34.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 26.
+(Font)              `operators' in the math version `normal' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 26.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 34.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 26.
+(Font)              `operators' in the math version `bold' on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 26.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 26.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 26.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 26.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 26.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 26.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 26.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 26.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 26.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 26.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1000,27 +1015,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 34.
 (./sciscn.out) (./sciscn.out)
 \@outlinefile=\write3
 \openout3 = `sciscn.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 105
+.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 105
+.
 
 (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 82
-.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
+5.
 
 (c:/texlive/2023/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -1119,29 +1134,95 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 
  [1
 
-] [2] [3]
-(./sciscn.bbl)
+]
+File: ./data/timeline.pdf Graphic file (type pdf)
+<use ./data/timeline.pdf>
+ [2] [3] [4]
+[5]
+File: ./data/assist.drawio.pdf Graphic file (type pdf)
+<use ./data/assist.drawio.pdf>
+ [6] [7] [8] [9]
+Overfull \hbox (10.94566pt too wide) in alignment at lines 391--407
+[][][][][][] 
+ []
 
-Package caption Warning: Unused \captionsetup[table] on input line 573.
-See the caption package documentation for explanation.
+[10]
+File: ./data/res_block.pdf Graphic file (type pdf)
+<use ./data/res_block.pdf>
+File: ./data/attention.pdf Graphic file (type pdf)
+<use ./data/attention.pdf>
+ [11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13]
+File: ./data/structure_pow_param_acc.pdf Graphic file (type pdf)
+<use ./data/structure_pow_param_acc.pdf>
+ [14] [15]
+Overfull \hbox (1.95996pt too wide) in alignment at lines 525--538
+[][][][][][] 
+ []
+
+[16] [17] [18] [19]
+Overfull \hbox (27.62311pt too wide) in alignment at lines 629--635
+[][][][][][][][][][][] 
+ []
+
+[20] [21] [22] (./sciscn.bbl
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[23]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[24]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[25]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[26]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[27]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[28]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[29]
+Overfull \vbox (1.37773pt too high) has occurred while \output is active []
+
+
+[30]) [31]
+File: ./data/wei_fang.jpg Graphic file (type bmp)
+<./data/wei_fang.jpg>
+File: ./data/yonghong_tian.jpg Graphic file (type bmp)
+<./data/yonghong_tian.jpg>
 
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 575.
 See the caption package documentation for explanation.
 
-[4] 
+[32] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./sciscn.aux)
 Package rerunfilecheck Info: File `sciscn.out' has not changed.
-(rerunfilecheck)             Checksum: 7BA84079CCD3B4498660AB2E60592A40;1258.
+(rerunfilecheck)             Checksum: 849B8BB48EBAE86DCEBB19252F2FD640;1777.
  ) 
 Here is how much of TeX's memory you used:
- 20344 strings out of 476683
- 425484 string characters out of 5807575
- 1863012 words of memory out of 5000000
- 40187 multiletter control sequences out of 15000+600000
- 528728 words of font info for 146 fonts, out of 8000000 for 9000
+ 21035 strings out of 476683
+ 445799 string characters out of 5807575
+ 1887012 words of memory out of 5000000
+ 40855 multiletter control sequences out of 15000+600000
+ 528776 words of font info for 152 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 103i,12n,111p,1208b,402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,17n,111p,1229b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on sciscn.pdf (4 pages).
+Output written on sciscn.pdf (32 pages).

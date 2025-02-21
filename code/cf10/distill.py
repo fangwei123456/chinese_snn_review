@@ -278,12 +278,25 @@ import baseline_ann
 def main():
     # channels = 128, params = 17542026
     '''
+    python distill.py -data-dir /datasets/CIFAR10 -opt sgd -channels 128 -epochs 256 -beta 0.01 -temp 2 -out-dir ./templog
+
+
     python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -alpha 0.001 -temp 2
     python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -alpha 0.001 -temp 4 -device cuda:1
 
     python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -beta 0.01 -device cuda:1
     python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -beta 0.1 -device cuda:1
     python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -beta 1 -device cuda:1
+
+
+    python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -alpha 0.001 -temp 4.0 -beta 0. -sop -resume /home/wfang/chinese_review/cf10/logs/pt/logs/distill_a0.001_t4.0_b0.0_T_4_e256_b128_sgd_lr0.1_c128_amp/checkpoint_max.pth
+
+
+    python distill.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -alpha 0. -temp 1.0 -beta 0.1 -sop -resume /home/wfang/chinese_review/cf10/logs/pt/logs/distill_a0.0_t1.0_b0.1_T_4_e256_b128_sgd_lr0.1_c128_amp/checkpoint_max.pth
+
+
+
+
 
     '''
     parser = argparse.ArgumentParser(description='Classify Fashion-MNIST')
@@ -308,7 +321,7 @@ def main():
     parser.add_argument('-alpha', type=float, default=0.)  # response
     parser.add_argument('-temp', type=float, default=1.)  # 温度
     parser.add_argument('-beta', type=float, default=0.)  # feature
-
+    parser.add_argument('-sop', action='store_true')
 
 
     args = parser.parse_args()
@@ -411,6 +424,13 @@ def main():
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
         print(f'Mkdir {out_dir}.')
+
+    if args.sop:
+        import energy
+        energy.get_sops_over_test_set(net, test_data_loader, args)
+
+        exit()
+
 
     writer = SummaryWriter(out_dir, purge_step=start_epoch)
 

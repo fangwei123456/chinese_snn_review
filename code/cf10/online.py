@@ -136,7 +136,7 @@ class OnlineLIFNode(neuron.LIFNode):
                     self.run_th += (1 - self.th_momentum) * (self.v_threshold - self.run_th)
             else:
                 self.v_threshold = self.run_th.item()
-
+        #print(self.v_threshold)
     def forward(self, x: torch.Tensor):
         if self.init:
             self.forward_init(x)
@@ -408,7 +408,7 @@ def main():
     '''
     python online.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256
 
-
+    python online.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -sop -resume /home/wfang/chinese_review/cf10/logs/pt/logs/online_T_4_e256_b128_sgd_lr0.1_c128_amp/checkpoint_max.pth
     '''
     parser = argparse.ArgumentParser(description='Classify Fashion-MNIST')
     parser.add_argument('-device', default='cuda:0', help='device')
@@ -428,7 +428,7 @@ def main():
     parser.add_argument('-T', default=4, type=int)
     parser.add_argument('-prefix', default='online', type=str)
     parser.add_argument('-BN-type', default='new', type=str)
-
+    parser.add_argument('-sop', action='store_true')
 
     args = parser.parse_args()
     print(args)
@@ -524,6 +524,13 @@ def main():
         os.makedirs(out_dir)
         print(f'Mkdir {out_dir}.')
 
+    if args.sop:
+        import energy
+        energy.get_sops_over_test_set_online(net, test_data_loader, args)
+
+        exit()
+
+
     writer = SummaryWriter(out_dir, purge_step=start_epoch)
 
     with open(os.path.join(out_dir, 'args.txt'), 'w', encoding='utf-8') as args_txt:
@@ -549,20 +556,27 @@ def main():
                 y = None
                 for t in range(args.T):
                     yt = net(img)
-                    loss = loss + F.cross_entropy(yt, label, label_smoothing=0.1) / args.T
+                    loss_t = F.cross_entropy(yt, label, label_smoothing=0.1) / args.T
+
+                    if scaler is not None:
+                        scaler.scale(loss_t).backward()
+                        if t == args.T - 1:
+                            scaler.step(optimizer)
+                            scaler.update()
+                    else:
+                        if t == args.T - 1:
+                            loss_t.backward()
+                            optimizer.step()
+
+
+                    loss = loss + loss_t.item()
                     y = yt if y is None else y + yt
                 # y = net(img).mean(0)
 
-            if scaler is not None:
-                scaler.scale(loss).backward()
-                scaler.step(optimizer)
-                scaler.update()
-            else:
-                loss.backward()
-                optimizer.step()
+
 
             train_samples += label.shape[0]
-            train_loss += loss.item() * label.shape[0]
+            train_loss += loss * label.shape[0]
             train_acc += (y.argmax(1) == label.argmax(1)).float().sum().item()
 
             functional.reset_net(net)

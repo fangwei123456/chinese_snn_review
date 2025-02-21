@@ -277,7 +277,22 @@ def params(net: nn.Module):
 def main():
     # channels = 128, params = 17542026
     '''
-    python proxy.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256
+
+    python baseline.py -data-dir /datasets/CIFAR10 -opt sgd -channels 128 -epochs 256 -out-dir ./templog
+
+
+    python baseline.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -device cuda:1M
+
+    python baseline.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -sop -resume /home/wfang/chinese_review/cf10/logs/pt/logs/baseline_T_4_e256_b128_sgd_lr0.1_c128_amp/checkpoint_max.pth
+
+Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 114688
+Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 4722688
+Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 4722688
+Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 2361344
+Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 2361344
+Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False, step_mode=m) flops= 2361344
+Linear(in_features=8192, out_features=2048, bias=True) flops= 16779264
+Linear(in_features=2048, out_features=10, bias=True) flops= 20490
 
 
     '''
@@ -298,6 +313,8 @@ def main():
     parser.add_argument('-channels', default=128, type=int, help='channels of CSNN')
     parser.add_argument('-T', default=4, type=int)
     parser.add_argument('-prefix', default='baseline', type=str)
+
+    parser.add_argument('-sop', action='store_true')
 
 
     args = parser.parse_args()
@@ -388,11 +405,18 @@ def main():
         lr_scheduler.load_state_dict(checkpoint['lr_scheduler'])
         start_epoch = checkpoint['epoch'] + 1
         max_test_acc = checkpoint['max_test_acc']
+        print(checkpoint['epoch'], max_test_acc)
 
 
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
         print(f'Mkdir {out_dir}.')
+
+    if args.sop:
+        import energy
+        energy.get_sops_over_test_set(net, test_data_loader, args)
+
+        exit()
 
     writer = SummaryWriter(out_dir, purge_step=start_epoch)
 

@@ -300,7 +300,14 @@ def params(net: nn.Module):
 def main():
     # channels = 128, params = 17542026
     '''
+
+
     python psn.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -device cuda:1
+
+
+    python psn.py -data-dir /datasets/CIFAR10 -amp -opt sgd -channels 128 -epochs 256 -sop -resume /home/wfang/chinese_review/cf10/logs/pt/logs/psn_T_4_e256_b128_sgd_lr0.1_c128_amp/checkpoint_max.pth
+
+
 
 
     '''
@@ -321,7 +328,7 @@ def main():
     parser.add_argument('-channels', default=128, type=int, help='channels of CSNN')
     parser.add_argument('-T', default=4, type=int)
     parser.add_argument('-prefix', default='psn', type=str)
-
+    parser.add_argument('-sop', action='store_true')
 
     args = parser.parse_args()
     print(args)
@@ -416,6 +423,13 @@ def main():
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
         print(f'Mkdir {out_dir}.')
+
+    if args.sop:
+        import energy
+        energy.get_sops_over_test_set(net, test_data_loader, args)
+
+        exit()
+
 
     writer = SummaryWriter(out_dir, purge_step=start_epoch)
 
